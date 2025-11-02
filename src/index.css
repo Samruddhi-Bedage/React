@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background: #f8f8f8;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.board-row {
+  display: flex;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 
+.game-info {
+  margin: centre 20px;;
+} */
